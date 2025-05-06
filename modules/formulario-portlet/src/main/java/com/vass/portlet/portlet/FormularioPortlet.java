@@ -21,7 +21,7 @@ import org.osgi.service.component.annotations.Component;
 
 
 /**
- * @author juanluis.vargas
+ * @author juanluis.vargas cid
  */
 
 
