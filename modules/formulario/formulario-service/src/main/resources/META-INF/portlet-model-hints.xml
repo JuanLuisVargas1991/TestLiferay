@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.liferay.Formulario.model.Registro">
+		<field name="registroId" type="long" />
+		<field name="nombre" type="String" />
+		<field name="email" type="String" />
+	</model>
+</model-hints>

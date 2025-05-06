@@ -1,0 +1,4 @@
+Bundle-Name: formulario-portlet
+Bundle-SymbolicName: com.vass.portlet
+Bundle-Version: 1.0.0
+Export-Package: com.vass.portlet.constants

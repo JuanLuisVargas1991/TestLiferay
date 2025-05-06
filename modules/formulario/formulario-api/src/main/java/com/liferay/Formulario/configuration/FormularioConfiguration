@@ -1,0 +1,15 @@
+package com.liferay.Formulario.configuration;
+
+import aQute.bnd.annotation.metatype.Meta;
+
+@Meta.OCD(id = "com.liferay.Formulario.configuration.FormularioConfiguration")
+public interface FormularioConfiguration {
+
+    @Meta.AD(
+        deflt = "Bienvenido al Formulario de Registro",
+        name = "Título de Bienvenida",
+        required = false
+    )
+    public String tituloFormulario();
+}
+

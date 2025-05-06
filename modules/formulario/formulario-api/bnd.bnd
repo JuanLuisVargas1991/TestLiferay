@@ -1,0 +1,10 @@
+Bundle-Name: formulario-api
+Bundle-SymbolicName: com.liferay.Formulario.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.Formulario.exception,\
+	com.liferay.Formulario.model,\
+	com.liferay.Formulario.service,\
+	com.liferay.Formulario.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../formulario-service/service.xml

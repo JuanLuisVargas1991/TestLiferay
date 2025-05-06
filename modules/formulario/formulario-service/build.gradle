@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:formulario:formulario-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+}
+
+buildService {
+	apiDir = "../formulario-api/src/main/java"
+}
+
+group = "com.liferay.Formulario"
